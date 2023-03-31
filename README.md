@@ -1,6 +1,6 @@
 # automated-selenium-python
 
-### Install neccessaru dependencies
+### Install neccessary dependencies
 1- Run pip install to install Faker and Selenium
 
 ```

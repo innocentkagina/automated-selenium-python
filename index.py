@@ -54,10 +54,13 @@ driver.find_element(
 
 # Wait for page to load
 time.sleep(5)
+
+# click on jobs board
 driver.find_element(
     By.XPATH, '/html/body/div/div/div[1]/div/div[1]/div[2]/button').click()
 
-time.sleep(5)
+time.sleep(20)
+
 # Print successful user was redirected to the Job Portal page
 print("Successfully signed up and redirected to the Job Portal page!")
 # Close the browser
